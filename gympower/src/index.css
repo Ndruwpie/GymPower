@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* 1. Kunci struktur utama agar tidak melompat */
+:root {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+    /* Mencegah pergeseran layout saat scrollbar muncul */
+    scrollbar-gutter: stable;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* Menghilangkan centering dari template bawaan Vite */
+    display: block;
+    min-height: 100vh;
+    background-color: #F8FAFC;
+    overflow: hidden; /* Scroll hanya boleh di dalam area konten */
+}
+
+/* 2. Custom Scrollbar agar lebih cantik & tidak memakan tempat */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E2E8F0;
+    border-radius: 10px;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #CBD5E1;
+    }
+
+/* 3. Reset warna agar konsisten (Paksa Light Mode jika desain Anda spesifik) */
+:root {
+    color-scheme: light;
+    color: #1e293b;
+}
