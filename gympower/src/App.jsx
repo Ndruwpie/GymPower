@@ -263,13 +263,13 @@ export default function CoreGymUltimate() {
                             </div>
                         </div>
 
-                        <div className="flex items-center gap-3 border-l pl-6">
-                            <div className="text-right hidden sm:block">
-                                <p className="text-sm font-black text-slate-800 leading-none mb-1">{user.name}</p>
-                                <p className="text-[10px] text-indigo-600 font-black uppercase tracking-tighter">{user.id} • {user.role}</p>
-                            </div>
-                            <img src={`https://ui-avatars.com/api/?name=${user.name}&background=6366f1&color=fff&bold=true`} className="w-10 h-10 rounded-full border-2 border-white shadow-sm" alt="pfp" />
-                        </div>
+                        {/*<div className="flex items-center gap-3 border-l pl-6">*/}
+                        {/*    <div className="text-right hidden sm:block">*/}
+                        {/*        <p className="text-sm font-black text-slate-800 leading-none mb-1">{user.name}</p>*/}
+                        {/*        <p className="text-[10px] text-indigo-600 font-black uppercase tracking-tighter">{user.id} • {user.role}</p>*/}
+                        {/*    </div>*/}
+                        {/*    <img src={`https://ui-avatars.com/api/?name=${user.name}&background=6366f1&color=fff&bold=true`} className="w-10 h-10 rounded-full border-2 border-white shadow-sm" alt="pfp" />*/}
+                        {/*</div>*/}
                     </div>
                 </header>
 
